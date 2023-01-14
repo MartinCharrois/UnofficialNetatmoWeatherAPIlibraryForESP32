@@ -1,0 +1,25 @@
+{
+    "name": "Unofficial Netatmo Weather API Library for ESP32 ",
+    "version": "0.1.0",
+    "description": "A small library allowing netatmo weather station owner to access their station data's",
+    "keywords": "netatmo, API, Weather, ESP32",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/MartinCharrois/UnofficialNetatmoWeatherAPIlibraryForESP32.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Martin Charrois"
+      }
+    ],
+    "license": "MIT",
+    "dependencies": {
+      "bblanchon/ArduinoJson": "^6.19.4"
+    },
+    "frameworks": "Arduino",
+    "platforms": "espressif32",
+    "headers": ["ESP32libForNetatmoWeatherAPI.hpp", "Token.hpp","WeatherStation.hpp"],
+    "export": {"exclude": [".github","test","figures"]}
+}
