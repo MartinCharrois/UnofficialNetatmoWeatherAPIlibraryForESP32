@@ -57,7 +57,7 @@ In order to access the Netatmo Weather API, you need credentials. This section e
 
 - Go to the [Netatmo dev website](https://dev.netatmo.com/) and login with your classic Netatmo account.
 - Then click on your username on the top right corner and click on **My apps**
-![[figures/my-apps-menu.png]]
+![figures/my-apps-menu.png]
 - Click on **Create** to register your apps. fill in the form. After completing the procedure, you'll get a client ID and a client secret key. They are used by the `Token.init(...)` method to fetch your authentication token.
 
 ## TODO List

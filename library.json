@@ -1,5 +1,5 @@
 {
-    "name": "Unofficial Netatmo Weather API Library for ESP32 ",
+    "name": "UnofficialNetatmoWeatherAPIlibraryForESP32 ",
     "version": "0.1.0",
     "description": "A small library allowing netatmo weather station owner to access their station data's",
     "keywords": "netatmo, API, Weather, ESP32",
