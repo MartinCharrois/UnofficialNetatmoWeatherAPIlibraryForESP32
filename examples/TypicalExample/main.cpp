@@ -5,14 +5,6 @@ Token token;
 WeatherStation station;
 IndoorModule* indoorModule; //a pointer to oyur first indoor module
 
-const char* WiFiNetwork = "OnePlus Nord";
-const char* WiFipassword =  "12345678";
-
-const String client_id = "6336dffe3fcc98ab1b0fa9f2";
-const String client_secret = "pIZjYY7e4SfV1neETjmBKBjteNiadxUV6NxFTuMM" ;
-const String username ="btcharrois@gmail.com";
-const String OAUTHpassword = "Arthur37";
-/*
 //Credentials of your wifi network
 const char* WiFiNetwork = "WifiName";
 const char* WiFipassword =  "WifiPassword";
@@ -22,7 +14,7 @@ const String client_id = ""; //replace with the ID of the app you registered on 
 const String client_secret = "" ; //replace with the secret password of the app you registered on Netatmo dev website https://dev.netatmo.com/
 const String username =""; //your Netatmo Username
 const String OAUTHpassword = ""; //your Netatmo password
-*/
+
 void setup() {
     Serial.begin(115200);
 
