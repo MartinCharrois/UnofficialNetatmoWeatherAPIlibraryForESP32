@@ -3,7 +3,7 @@
 
 Token token;
 WeatherStation station;
-IndoorModule* indoorModule; //a pointer to oyur first indoor module
+IndoorModule* indoorModule; //a pointer to our first indoor module
 
 //Credentials of your wifi network
 const char* WiFiNetwork = "WifiName";
